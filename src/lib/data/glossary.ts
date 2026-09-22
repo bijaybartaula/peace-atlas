@@ -1,0 +1,22 @@
+import type { GlossaryTerm } from "../types";
+
+export const glossary: GlossaryTerm[] = [
+  { id: "armistice", term: "Armistice", definition: "Agreement to stop fighting, without ending the legal state of war. The 1918 Armistice preceded the 1919 settlements.", example: "Compiègne, 11 Nov 1918.", relatedIdeas: ["peace", "diplomacy"], relatedTerms: ["ceasefire", "treaty"] },
+  { id: "ceasefire", term: "Cease-fire", definition: "Suspension of hostilities, often fragile and local; Res. 55/282 invokes it globally for 21 Sept as a norm, not an enforced truce.", relatedIdeas: ["peace", "mediation"], relatedTerms: ["armistice", "truce"] },
+  { id: "treaty", term: "Treaty", definition: "Written agreement between states governed by international law (Vienna Convention on the Law of Treaties, 1969).", relatedIdeas: ["international-law", "diplomacy"], relatedTerms: ["convention", "accord"] },
+  { id: "convention", term: "Convention", definition: "Multilateral treaty on a shared subject (e.g. Geneva Conventions, 1949).", relatedIdeas: ["international-law"], relatedTerms: ["treaty", "protocol"] },
+  { id: "resolution", term: "Resolution", definition: "Formal decision of a UN organ. General Assembly resolutions are generally non-binding; Security Council Chapter VII decisions can bind.", relatedIdeas: ["collective-security"], relatedTerms: ["declaration"] },
+  { id: "declaration", term: "Declaration", definition: "Solemn statement of principles, often non-binding (e.g. UDHR, 1948) but normatively weighty.", relatedIdeas: ["human-rights"], relatedTerms: ["resolution", "covenant"] },
+  { id: "g-diplomacy", term: "Diplomacy", definition: "Negotiation and representation between political actors to manage conflict without force.", relatedIdeas: ["diplomacy", "mediation"], relatedTerms: ["mediation", "negotiation"] },
+  { id: "g-mediation", term: "Mediation", definition: "Third-party facilitation without binding authority; distinct from arbitration (binding) and adjudication.", relatedIdeas: ["mediation"], relatedTerms: ["arbitration", "good-offices"] },
+  { id: "arbitration", term: "Arbitration", definition: "Binding third-party decision consented to in advance (e.g. Alabama claims, 1872; PCA cases).", relatedIdeas: ["international-law"], relatedTerms: ["mediation", "adjudication"] },
+  { id: "g-reconciliation", term: "Reconciliation", definition: "Rebuilding relationships after violence through truth, acknowledgment, repair, and shared institutions.", relatedIdeas: ["reconciliation", "restorative-justice"], relatedTerms: ["forgiveness", "transitional-justice"] },
+  { id: "g-disarmament", term: "Disarmament", definition: "Elimination of weapon categories; arms control regulates them. Both need verification.", relatedIdeas: ["disarmament"], relatedTerms: ["arms-control", "non-proliferation"] },
+  { id: "g-deterrence", term: "Deterrence", definition: "Preventing attack by threatening unacceptable retaliation (by punishment or denial).", relatedIdeas: ["deterrence"], relatedTerms: ["collective-security"] },
+  { id: "sovereignty", term: "Sovereignty", definition: "Supreme authority within territory plus independence externally; 'Westphalian' shorthand postdates 1648.", relatedIdeas: ["international-law"], relatedTerms: ["self-determination"] },
+  { id: "self-determination", term: "Self-determination", definition: "Peoples' right to determine political status; Charter principle (Art. 1) with contested scope.", relatedIdeas: ["justice", "human-rights"], relatedTerms: ["sovereignty", "decolonization"] },
+  { id: "sanctions", term: "Sanctions", definition: "Coercive non-force measures (arts. 41 UN Charter): embargoes, asset freezes, travel bans.", relatedIdeas: ["collective-security"], relatedTerms: ["embargo"] },
+  { id: "peacekeeping", term: "Peacekeeping", definition: "UN practice (not Charter text): consent-based interposition with impartiality and minimum force; peace enforcement differs.", relatedIdeas: ["collective-security", "mediation"], relatedTerms: ["peacemaking", "peacebuilding"] },
+  { id: "transitional-justice", term: "Transitional justice", definition: "Responses to mass abuse in transition: trials, truth commissions, reparations, reform — often in tension.", relatedIdeas: ["justice", "reconciliation"], relatedTerms: ["reconciliation", "amnesty"] },
+  { id: "track-two", term: "Track-two diplomacy", definition: "Unofficial dialogue among influential non-officials complementing official (track-one) talks.", relatedIdeas: ["diplomacy", "mediation"], relatedTerms: ["mediation"] },
+];
