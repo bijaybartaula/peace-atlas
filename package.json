@@ -1,0 +1,25 @@
+{
+  "name": "peace-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Peace Atlas — a living knowledge atlas using 21 September as doorway into humanity's history of peace.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate": "tsx scripts/validate.ts"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
